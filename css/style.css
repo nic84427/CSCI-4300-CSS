@@ -1,0 +1,278 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(142, 142, 142);
+    border-bottom: 2px solid lightcoral;
+    font-size: 12px;
+    margin: 0;
+}
+
+/* 'nav a' targets the anchor tags'*/
+nav a {
+    color:rgb(81, 232, 255);
+    text-decoration: none; /* remove the underline from the link */
+    margin-left: 15px;
+    transition: color 0.3s ease, font-size 0.3s ease; /* Smooth transitions for color and font-size changes */
+}
+
+nav a:hover {
+    color:hotpink;
+    font-size: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(142, 142, 142);
+    border-top: 2px solid lightcoral;
+    padding: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+footer a {
+    color:rgb(81, 232, 255);
+    text-decoration: none; /* remove the underline from the link */
+    transition: color 0.3s ease, font-size 0.3s ease; /* Smooth transitions for color and font-size changes */
+
+}
+
+footer a:hover {
+    color:hotpink;
+    font-size: 15px;
+}
+
+.section-set1 {
+    background-color: lavenderblush;
+    /*margin: 0;*/
+    padding: 10px; /* fixes the whitespace between sections */    
+    font-family: 'Caveat', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    /*font-size: 25px;*/
+
+}
+
+h1 {
+    /* Center text using flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 45px;
+    color: rgb(71, 71, 71);
+    padding: 50px; /* Increase space between top border and h2 below */
+}
+
+.img-dawg1 {
+  position:absolute;
+  width: 130px; /* Adjust as needed */
+  height: 130px; /* Adjust as needed */
+  margin-left: 170px;
+  border-radius: 50%;
+}
+
+.img-Fan {
+    position:absolute;
+    margin-left: 1100px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    
+}
+
+.section-set1 h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    font-size: 30px;
+    color: rgb(106, 106, 106);
+}
+
+.section-set2 {
+    background-color: lavenderblush;
+    margin: 0;
+    padding:20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(71, 71, 71);
+}
+
+.img-headshot {
+    display:block;
+    margin: 0 auto;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    
+}
+
+.section-set2 h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.section-set2 p {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.section-set2 a {
+    color:rgb(98, 43, 157);
+    text-decoration: none; /* remove the underline from the link */
+    transition: color 0.3s ease, font-size 0.3s ease; /* Smooth transitions for color and font-size changes */
+}
+
+.section-set2 a:hover {
+    color:deeppink;
+    font-size: 18px;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width: 100%;
+    
+}
+
+.card {
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(245, 250, 255);
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+/* Increase size on hover */
+.card:hover {
+    transform: scale(1.1); /* Increase the size by 10% on hover */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); /* Adjusted shadow on hover */
+}
+
+.card .c-img {
+    width: 99%;
+    display: block;
+    margin: 0 auto;
+    height: 130px;
+    border-radius: 4px;
+}
+
+.card h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 2px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    
+}
+.card li {
+    margin-bottom: 5px;
+}
+
+.card dl {
+    display: flex;
+    flex-direction: column;
+}
+
+.card dt {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.card-contact {
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: rgb(245, 250, 255);
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.section-contact {
+    background-color: lavenderblush;
+    margin: 0;
+    padding: 30px; /* fixes the whitespace between sections */    
+    font-family: 'Caveat', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.section-contact p {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+    color: rgb(71, 71, 71);
+}
+
+.one-col {
+    background-color: lavenderblush;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+label {
+    font-family: 'Caveat', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(71, 71, 71);
+}
+
+input {
+    width: 50%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+
+}
+
+input[type="submit"] {
+    background-color: darkblue; /* Set a background color for the submit button */
+    color: rgb(255, 255, 255); /* Set text color for the submit button */
+    cursor: pointer; /* Add a pointer cursor for better usability */
+    margin-top: 15px;
+    text-align: center;
+}
+
+textarea {
+    width: 80%;
+    height: 75px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+
+hr {
+    border-bottom: dotted 6px lightcoral;
+    border-top: none;
+    border-bottom-width: 10px;
+    width: 75%;
+  }
